@@ -1,0 +1,243 @@
+html,
+body {
+  height: 100%;
+
+}
+
+body {
+  font-family: newfamily;
+}
+
+@font-face {
+  font-family: newfamily;
+  src: url('./DIN Condensed Bold_0.ttf');
+
+}
+
+
+
+.sandwitch {
+
+
+  height: 320px;
+  background-image: url("./assets/burgur.jpg");
+  background-size: cover;
+
+}
+
+.chapati {
+  height: 210px;
+  background-image: url("./assets/chapati.jpeg");
+  background-size: cover;
+
+}
+
+.pineapple {
+
+
+  height: 210px;
+  background-image: url("./assets/pine.jpg");
+  background-size: cover;
+
+}
+
+.chinese {
+
+
+  height: 210px;
+  background-image: url("./assets/chinese.jpg");
+  background-size: cover;
+
+}
+
+.parallax {
+  padding-top: 140px;
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+  background-image: url("./assets/bg-pic@2x.png");
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+
+.third {
+
+  height: 250px;
+  width: 500px;
+  background-color: #fdfdfd;
+  padding: 10px;
+  background-size: cover;
+
+}
+
+.whitee {
+  height: 230px;
+  width: 220px;
+  background-color: white;
+  background-size: cover;
+  padding: 10px;
+
+}
+
+.food {
+
+  height: 200px;
+  width: 200px;
+  background-image: url("./assets/recepie.jpg");
+  background-size: cover;
+
+}
+
+.pasta {
+
+  height: 200px;
+  width: 200px;
+  background-image: url("./assets/pasta.jpg");
+  background-size: cover;
+
+}
+
+.icecream {
+
+    height: 200px;
+    width: 200px;
+    background-image: url("./assets/Ice_Cream.jpg");
+    background-size: cover;
+  
+  }
+
+p {
+  font-size: 15px;
+
+}
+a {
+    font-size:20px
+}
+
+.dash {
+
+
+  background-image: url("./assets/detail01.png");
+  background-repeat: no-repeat;
+
+
+}
+
+.blog-box{
+    position: absolute;
+    top: 11px;
+    padding-left: 4%;
+}
+
+
+
+.blog-box1 {
+  position: relative;
+  top: 11px;
+  padding-left: 4%;
+}
+
+.star {
+
+  background-image: url("./assets/bg-detail.png");
+  background-repeat: no-repeat;
+
+
+}
+
+.change {
+
+  margin-top: 40px;
+  color: white;
+}
+
+.borderr {
+  border-left: 1px solid black;
+
+}
+
+input[type=text],
+select {
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0px;
+  border-bottom: 1px solid black !important;
+  background: transparent;
+}
+
+.affix-top {
+  /* navbar style at top */
+  background: transparent;
+  border-color: transparent;
+  padding: 15px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.affix-top .nav>li>a {
+  color: #000;
+}
+
+.affix-top .navbar-collapse {
+  border-color: transparent;
+  background: transparent;
+
+}
+
+section {
+  height: calc(90% - 50px);
+  height: 130vh;
+}
+
+.our-menu-box{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.box {
+
+  background-color:#0000007a;
+  width:25%;
+  float:left;
+  height:40%;
+}
+
+.box1 {
+
+  background-color:#0000007a;
+  width:30%;
+  float:left;
+  height:40%;
+}
+
+.line {
+
+  font-size:60px;
+  text-decoration-line: line-through;
+  text-decoration-color:#ffc9d2;
+  
+}
+
+.insta {
+
+  float:right;
+  margin-right:-3%;
+  margin-top:-5%;
+}
+
+.button-border{
+  background:transparent;
+  border: 1px solid pink;
+}
+
+.w3-animate-top{position:relative;animation:animatetop 6s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.w3-animate-bottom{position:relative;animation:animatebottom 2s}@keyframes animatebottom{from{bottom:-600px;opacity:0} to{bottom:0;opacity:1}}
